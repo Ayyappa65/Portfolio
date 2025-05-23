@@ -5,6 +5,7 @@ function showOverlay(overlayId, pageUrl) {
     overlay.style.display = 'block';
 }
 
+
 function hideOverlay(overlayId) {
     var overlay = document.getElementById(overlayId);
     overlay.style.display = 'none';
